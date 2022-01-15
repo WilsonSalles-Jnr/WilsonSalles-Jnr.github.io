@@ -1,0 +1,77 @@
+.home {
+  color: white;
+  background-image: linear-gradient(70deg, #4871E8, #B5A3FF, #AB729F, #2D1674, #B5A3FF);
+  background-size: 400% 400%;
+  width: 100%;
+  text-align: center;
+  padding: 90px;
+  animation: gradient 8s ease infinite ;
+}
+
+@keyframes gradient {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.description {
+  text-shadow: 2px 2px #3b3b3b;
+  color: white;
+  text-align: center;
+}
+
+.skills {
+  padding: 2% 5%;
+  background-image: linear-gradient(90deg, #B5A3FF, #2D1674, #AB729F);
+  background-size: 400% 400%;
+  animation: gradient 16s ease infinite ;
+}
+/* .skills li {
+  background-color: rgb(255, 202, 248);
+  border: solid rgb(0, 238, 255) 3px;
+  border-radius: 30px;
+  list-style: none;
+  color: black;
+  margin: 10px;
+}
+
+.skills ul {
+  padding: 0;
+} */
+
+.projects {
+  background-image: linear-gradient(180deg, #B5A3FF, #2D1674);
+  padding: 2% 5%;
+  color: white;
+  text-shadow: 2px 2px #3b3b3b;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 3% 0;
+}
+
+.contact {
+  background-image: linear-gradient(180deg, #2D1674, #0f0f0f);
+  padding: 2% 5%;
+}
+
+.fonts {
+  text-align: center;
+}
+
+.fonts a {
+  color: #3b3b3b;
+  text-decoration: none;
+}
