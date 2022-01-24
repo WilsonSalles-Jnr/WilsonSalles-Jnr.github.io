@@ -1,4 +1,5 @@
 import projetos from "./projectList.js";
+import skillList from "./skillList.js";
 const projectSection = document.getElementsByClassName('project-list')[0];
 
 const CARD = "card";
@@ -92,7 +93,7 @@ const appendProject = (project, indice) => {
 }
 
 window.onload = () => {
-  console.log(projectSection)
+  // console.log(Object.keys(skillList[0])[0])
   projetos.map((projeto, indice) => appendProject(projeto, indice))
   localStorage.visita = Date.now();
 

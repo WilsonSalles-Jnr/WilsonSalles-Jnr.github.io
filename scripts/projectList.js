@@ -16,6 +16,15 @@ const projetos = [
     linkProjeto: '',
     linkRepositorio: 'https://github.com/WilsonSalles-Jnr/sql-insert-builder',
     data: '28/06/1996'
+  },
+  {
+    nome: 'learning-php',
+    imagem: '../images/projeto-3.png',
+    descricao: 'Estou utilizando este repositório para inserir meus estudos em php, ainda está em construção.',
+    tags: ['php'],
+    linkProjeto: '',
+    linkRepositorio: 'https://github.com/WilsonSalles-Jnr/learning-php',
+    data: '24/01/2022'
   }
 ]
 export default projetos;
