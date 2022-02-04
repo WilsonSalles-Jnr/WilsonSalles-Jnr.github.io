@@ -25,6 +25,15 @@ const projetos = [
     linkProjeto: '',
     linkRepositorio: 'https://github.com/WilsonSalles-Jnr/learning-php',
     data: '24/01/2022'
+  },
+  {
+    nome: 'Laravel-crud',
+    imagem: '../images/projeto-4.png',
+    descricao: 'Estou utilizando este repositório para inserir meus estudos em php, ainda está em construção.',
+    tags: ['php', 'laravel', 'crud', 'mysql'],
+    linkProjeto: 'https://wilsonsalles-jnr.github.io/Laravel-crud/',
+    linkRepositorio: 'https://github.com/WilsonSalles-Jnr/Laravel-crud',
+    data: '04/02/2022'
   }
 ]
 export default projetos;
