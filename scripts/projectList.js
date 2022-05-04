@@ -34,6 +34,15 @@ const projetos = [
     linkProjeto: 'https://wilsonsalles-jnr.github.io/Laravel-crud/',
     linkRepositorio: 'https://github.com/WilsonSalles-Jnr/Laravel-crud',
     data: '04/02/2022'
+  },
+  {
+    nome: 'DesafioColeta-GRX',
+    imagem: '../images/projeto-5.png',
+    descricao: 'Este é um projeto de Desafio Técnico proposto pela GRX.',
+    tags: ['html', 'css', 'javascript', 'bootstrap', 'jquery', 'c#'],
+    linkProjeto: '',
+    linkRepositorio: 'https://github.com/WilsonSalles-Jnr/DesafioColeta-GRX',
+    data: '04/05/2022'
   }
 ]
 export default projetos;
